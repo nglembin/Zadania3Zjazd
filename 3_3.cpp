@@ -1,9 +1,11 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
     double A, B, C;
 
+    cout << "Rownanie kwadratowe ma postać Ax^2 + Bx + C = 0" << endl;
     cout << "Podaj wspolczynnik A: ";
     cin >> A;
     cout << "Podaj wspolczynnik B: ";
